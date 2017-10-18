@@ -36,7 +36,7 @@ VPATH = ..
 ###############################################################################
 # Project settings
 
-PROJECT := mbed-lpc1768-simple-leds
+PROJECT := mbed-lpc1768-ledtimer
 
 
 # Project settings
