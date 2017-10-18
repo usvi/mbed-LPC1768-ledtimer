@@ -6,3 +6,5 @@ time), the LED1 is lit for 3 seconds. Simple, yet clear
 implementation, no busy-waiting!
 
 Clone, install ARM-GCC, make, make flash and try!
+
+Demo in action: https://www.youtube.com/watch?v=JxRWRIWEx48
