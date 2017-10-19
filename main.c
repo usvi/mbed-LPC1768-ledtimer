@@ -47,7 +47,7 @@ void setup_button1(void)
   // Configure button pin functionality to GPIO:
   BUTTON1_PIN_SELECTOR &= ~BUTTON1_PIN_SELECTOR_MASK;
   // Configure button GPIO direction to read:
-  BUTTON1_GPIO_DIRECTOR &= ~BUTTON1_GPIO_DIRECTOR;
+  BUTTON1_GPIO_DIRECTOR &= ~BUTTON1_GPIO_MASK;
   // Make button read logical level high by default:
   BUTTON1_PIN_MODE &= PIN_RESISTORS_MASK;
 }
